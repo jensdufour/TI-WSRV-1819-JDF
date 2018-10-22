@@ -1,7 +1,4 @@
-﻿
-#Mount SQL ISO
-Write-Host 'Disk mounten'
-Mount-DiskImage 'C:\en_sql_server_2016_enterprise_x64_dvd_8701793.iso'
+﻿echo "Downloading SQL..."
+wget "https://go.microsoft.com/fwlink/?linkid=853016" -OutFile SQLServer2017-SSEI-Dev.exe
 Write-Host 'SQL Installeren'
-#EXE uitvoeren vanuit ISO
-D:\setup.exe /configurationfile="E:\ConfigurationFile.ini"
+.\SQLServer2017-SSEI-Dev.exe /Q  /Action=install /INSTANCENAME="SQLServer"  /INSTANCEID="SQLServer"  /IAcceptSQLServerLicenseTerms  /FEATURES=SQL,Tools  /TCPENABLED=1  /SECURITYMODE="SQL" /SAPWD="@Project2018"
