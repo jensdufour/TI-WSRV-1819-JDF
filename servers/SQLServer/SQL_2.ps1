@@ -1,7 +1,7 @@
-﻿Set-TimeZone -Name "Central Europe Standard Time"
-Write-Host 'Directories aanmaken'
-#Directories
-MD 'C:\Program Files\Microsoft SQL Server'
-MD 'C:\Program Files (x86)\Microsoft SQL Server'
-MD 'c:\Program Files (x86)\Microsoft SQL Server\DReplayClient\ResultDir'
-MD 'c:\Program Files (x86)\Microsoft SQL Server\DReplayClient\WorkingDir'
+﻿Function Firewall{
+    Write-Host 'Firewall Config'
+    Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+    Write-Host 'Firewall Rule Port 1433'
+    New-NetFirewallRule -DisplayName "MSSQL ENGINE TCP" -Direction Inbound -LocalPort 1433 -Protocol TCP -Action Allow
+}
+Firewall
