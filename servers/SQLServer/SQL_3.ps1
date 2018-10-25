@@ -8,11 +8,14 @@
     Write-Host 'SQL Installeren'
     Start-Process -FilePath C:/SQLEXPR_x64_ENU/SETUP.EXE -ArgumentList "/Q /Action=install /IAcceptSQLServerLicenseTerms /FEATURES=SQL,Tools /TCPENABLED=1 /SECURITYMODE=`"SQL`" /SQLSYSADMINACCOUNTS=`"BUILTIN\Administrators`" /INSTANCENAME=`"SQL`" /INSTANCEID=`"SQL`" /SAPWD=`"@Project2018`"" -wait
 }
+
 Function SSMS{
     Write-Host 'SQL Managemnt Studio Installeren'
     cd C:/
     wget "https://go.microsoft.com/fwlink/?linkid=858904" -OutFile SSMS-Setup-ENU.exe
     Start-Process -FilePath "C:\SSMS-Setup-ENU.exe" -ArgumentList '/s' -Wait -PassThru
 }
+
 SQL
 SSMS
+Restart-Computer
