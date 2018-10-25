@@ -50,7 +50,7 @@ Function JAVA {
 setName
 setIP
 createDirectories
-NuGet
+#NuGet
 ServerManager
 NET
 JAVA
