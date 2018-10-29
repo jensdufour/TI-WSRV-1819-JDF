@@ -20,6 +20,8 @@ new-item exchange -itemtype directory
 ECHO "Already created"
 }
 ECHO "Place exchange.exe in C:\Users\Administrator\Documents\exchange"
+cd C:\Users\Administrator\Documents\exchange
+wget "EXCHANGE_DOWNLOAD_LINK" -OutFile exchange.exe
 
 Write-Host "Press any key to install Exchange"
 $x = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")

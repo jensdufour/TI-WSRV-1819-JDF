@@ -1,3 +1,5 @@
+#Activeer PS
+Set-ExecutionPolicy Unrestricted
 #Declaring variables
 $hostname = "ns2"
 
