@@ -21,7 +21,7 @@ ECHO "Already created"
 }
 ECHO "Place exchange.exe in C:\Users\Administrator\Documents\exchange"
 cd C:\Users\Administrator\Documents\exchange
-wget "EXCHANGE_DOWNLOAD_LINK" -OutFile exchange.exe
+wget "https://download.microsoft.com/download/3/9/B/39B8DDA8-509C-4B9E-BCE9-4CD8CDC9A7DA/Exchange2016-x64.exe" -OutFile exchange.exe
 
 Write-Host "Press any key to install Exchange"
 $x = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
