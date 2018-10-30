@@ -2,10 +2,11 @@
 $domainname = "jenduf.gent"
 
 #IP-adres en default gateway wijzigen
-#New-NetIPAddress -InterfaceAlias "Ethernet 2" -IPAddress "192.168.1.2" -PrefixLength 24 -DefaultGateway "192.168.1.1"
+New-NetIPAddress -InterfaceAlias "Ethernet 2" -IPAddress 192.168.1.2 -DefaultGateway 192.168.1.1 -PrefixLength 24
+Set-DnsClientServerAddress -InterfaceAlias "Ethernet 2" -ServerAddresses 192.168.1.1, 192.18.1.2
 
 #Firewall uitschakelen
-#Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
 
 #JoinDomain
 Write-Host 'Trying to join domain jenduf.gent'
@@ -17,8 +18,8 @@ $credential = New-Object System.Management.Automation.PSCredential($joindomainus
 Add-Computer -DomainName $DomainName -Credential $credential
 
 #DC en DNS installeren en domeinnaam instellen
-#Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
-#Install-ADDSDomainController -DomainName $domainname -SafeModeAdministratorPassword:(ConvertTo-SecureString -String "Project2018" -AsPlainText -Force) -Force
+Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
+Install-ADDSDomainController -DomainName $domainname -SafeModeAdministratorPassword:(ConvertTo-SecureString -String "Project2018" -AsPlainText -Force) -Force
 
 #Server opnieuw opstarten
-#Restart-computer
+Restart-computer
