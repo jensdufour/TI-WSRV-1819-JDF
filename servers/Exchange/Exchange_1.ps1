@@ -1,16 +1,8 @@
 #Requires -RunAsAdministrator
 #Activeer PS
 Set-ExecutionPolicy Unrestricted
-#JoinDomain
-    Write-Host 'Trying to join domain jenduf.gent'
-    $DomainName = "jenduf.gent"
-    $SafeModeAdministratorPassword = "Project2018" | ConvertTo-SecureString -AsPlainText -Force
-    $domain = "jensduf"
-    $joindomainuser = "Administrator"
-    $credential = New-Object System.Management.Automation.PSCredential($joindomainuser,$SafeModeAdministratorPassword)
-    Add-Computer -DomainName $DomainName -Credential $credential
+
 #SetIPAndFirewall
-#Ip adres 
 Write-host "Set IP and Firewall"
 
 New-NetIPAddress -InterfaceAlias "Ethernet 2" -IPAddress "192.168.1.3" -PrefixLength 24 -DefaultGateway "192.168.1.1"
