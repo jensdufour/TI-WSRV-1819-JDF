@@ -12,8 +12,8 @@ $ComputerName.Rename($name)
 Function setIP{
 Write-Host 'IP addres geven'
 #IP configuration
-New-NetIPAddress -InterfaceAlias "Ethernet 2" -IPAddress 192.168.1.3 -DefaultGateway 192.168.1.1 -PrefixLength 24
-Set-DnsClientServerAddress -InterfaceAlias "Ethernet 2" -ServerAddresses 192.168.1.1, 192.18.1.2
+New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress 192.168.1.3 -DefaultGateway 192.168.1.1 -PrefixLength 24
+Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses 192.168.1.1, 192.18.1.2
 }
 
 Function createDirectories{
