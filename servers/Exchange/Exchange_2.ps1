@@ -28,4 +28,4 @@ $x = $host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 Write-Host
 
 Write-Host "Installing Exchange"
-.\exchange\exchange.exe /IAcceptExchangeServerLicenseTerms /PrepareAD /OrganizationName:"jenduf.gent" /Roles:Mailbox
+.\exchange\exchange.exe /IAcceptExchangeServerLicenseTerms /PrepareAD /OrganizationName:"jenduf" /Roles:Mailbox
