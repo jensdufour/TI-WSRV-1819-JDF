@@ -30,5 +30,3 @@ Prereq
 NET
 UCMA
 Check
-
-wget "http://redirector.gvt1.com/edgedl/release2/chrome/AM4yMAx_dXd__69.0.3497.100/69.0.3497.100_chrome_installer.exe" -OutFile chrome.exe

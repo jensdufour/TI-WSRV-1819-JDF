@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.11.15)  29 NOV 2018 10:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.11.15)  30 NOV 2018 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -544,7 +544,7 @@ LaTeX Info: Redefining \nameref on input line 13.
 \@outlinefile=\write4
 \openout4 = `SCCM.out'.
 
-<Netwerkdiagram.png, id=31, 363.3575pt x 218.8175pt>
+<Netwerkdiagram.png, id=63, 363.3575pt x 218.8175pt>
 File: Netwerkdiagram.png Graphic file (type png)
 <use Netwerkdiagram.png>
 Package pdftex.def Info: Netwerkdiagram.png  used on input line 21.
@@ -552,7 +552,7 @@ Package pdftex.def Info: Netwerkdiagram.png  used on input line 21.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Netwerkdiagram.png>]
-<Pictures/Windows_Install/1542293852.png, id=51, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293852.png, id=83, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293852.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293852.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293852.png  used on input
@@ -561,13 +561,13 @@ Package pdftex.def Info: Pictures/Windows_Install/1542293852.png  used on input
  [2
 
 ]
-<Pictures/Windows_Install/1542293872.png, id=91, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293872.png, id=123, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293872.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293872.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293872.png  used on input
  line 104.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Windows_Install/1542293887.png, id=92, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293887.png, id=124, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293887.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293887.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293887.png  used on input
@@ -575,13 +575,13 @@ Package pdftex.def Info: Pictures/Windows_Install/1542293887.png  used on input
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [3 <./Pictures/Windows_Install/1542293852.png> <./Pictures/Windows_Install/154
 2293872.png>]
-<Pictures/Windows_Install/1542293899.png, id=99, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293899.png, id=131, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293899.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293899.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293899.png  used on input
  line 112.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Windows_Install/1542293908.png, id=100, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293908.png, id=132, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293908.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293908.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293908.png  used on input
@@ -589,13 +589,13 @@ Package pdftex.def Info: Pictures/Windows_Install/1542293908.png  used on input
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [4 <./Pictures/Windows_Install/1542293887.png> <./Pictures/Windows_Install/154
 2293899.png>]
-<Pictures/Windows_Install/1542293921.png, id=107, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293921.png, id=139, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293921.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293921.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293921.png  used on input
  line 122.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Windows_Install/1542293929.png, id=108, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293929.png, id=140, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293929.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293929.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293929.png  used on input
@@ -603,13 +603,13 @@ Package pdftex.def Info: Pictures/Windows_Install/1542293929.png  used on input
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [5 <./Pictures/Windows_Install/1542293908.png> <./Pictures/Windows_Install/154
 2293921.png>]
-<Pictures/Windows_Install/1542293934.png, id=115, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293934.png, id=147, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293934.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293934.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293934.png  used on input
  line 132.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Windows_Install/1542293945.png, id=116, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293945.png, id=148, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293945.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293945.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293945.png  used on input
@@ -617,68 +617,542 @@ Package pdftex.def Info: Pictures/Windows_Install/1542293945.png  used on input
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [6 <./Pictures/Windows_Install/1542293929.png> <./Pictures/Windows_Install/154
 2293934.png>]
-<Pictures/Exchange/1542621993.png, id=123, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/1542621993.png Graphic file (type png)
-<use Pictures/Exchange/1542621993.png>
-Package pdftex.def Info: Pictures/Exchange/1542621993.png  used on input line 1
-41.
+<Pictures/SCCM/0/1543483191.png, id=155, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/0/1543483191.png Graphic file (type png)
+<use Pictures/SCCM/0/1543483191.png>
+Package pdftex.def Info: Pictures/SCCM/0/1543483191.png  used on input line 141
+.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/1542622148.png, id=124, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/1542622148.png Graphic file (type png)
-<use Pictures/Exchange/1542622148.png>
-Package pdftex.def Info: Pictures/Exchange/1542622148.png  used on input line 1
-45.
+<Pictures/SCCM/0/1543483265.png, id=156, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/0/1543483265.png Graphic file (type png)
+<use Pictures/SCCM/0/1543483265.png>
+Package pdftex.def Info: Pictures/SCCM/0/1543483265.png  used on input line 145
+.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
- [7 <./Pictures/Windows_Install/1542293945.png> <./Pictures/Exchange/1542621993
-.png>]
-<Pictures/Exchange/1542622164.png, id=132, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/1542622164.png Graphic file (type png)
-<use Pictures/Exchange/1542622164.png>
-Package pdftex.def Info: Pictures/Exchange/1542622164.png  used on input line 1
-49.
+ [7 <./Pictures/Windows_Install/1542293945.png> <./Pictures/SCCM/0/1543483191.p
+ng>]
+<Pictures/SCCM/0/1543483352.png, id=164, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/0/1543483352.png Graphic file (type png)
+<use Pictures/SCCM/0/1543483352.png>
+Package pdftex.def Info: Pictures/SCCM/0/1543483352.png  used on input line 149
+.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/1542622176.png, id=133, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/1542622176.png Graphic file (type png)
-<use Pictures/Exchange/1542622176.png>
-Package pdftex.def Info: Pictures/Exchange/1542622176.png  used on input line 1
-54.
-(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-
-[8 <./Pictures/Exchange/1542622148.png> <./Pictures/Exchange/1542622164.png>]
-<Pictures/Exchange/1542622272.png, id=140, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/1542622272.png Graphic file (type png)
-<use Pictures/Exchange/1542622272.png>
-Package pdftex.def Info: Pictures/Exchange/1542622272.png  used on input line 1
-59.
+<Pictures/SCCM/0/1543483358.png, id=165, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/0/1543483358.png Graphic file (type png)
+<use Pictures/SCCM/0/1543483358.png>
+Package pdftex.def Info: Pictures/SCCM/0/1543483358.png  used on input line 154
+.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
 
-[9 <./Pictures/Exchange/1542622176.png> <./Pictures/Exchange/1542622272.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+[8 <./Pictures/SCCM/0/1543483265.png> <./Pictures/SCCM/0/1543483352.png>]
+<Pictures/SCCM/0/1543483399.png, id=173, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/0/1543483399.png Graphic file (type png)
+<use Pictures/SCCM/0/1543483399.png>
+Package pdftex.def Info: Pictures/SCCM/0/1543483399.png  used on input line 159
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[9 <./Pictures/SCCM/0/1543483358.png> <./Pictures/SCCM/0/1543483399.png>]
+<Pictures/SCCM/1/1543499067.png, id=180, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499067.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499067.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499067.png  used on input line 171
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/1/1543499073.png, id=181, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499073.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499073.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499073.png  used on input line 176
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/1/1543499076.png, id=182, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499076.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499076.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499076.png  used on input line 181
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[10
+
+ <./Pictures/SCCM/1/1543499067.png> <./Pictures/SCCM/1/1543499073.png>]
+<Pictures/SCCM/1/1543499145.png, id=189, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499145.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499145.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499145.png  used on input line 186
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/1/1543499150.png, id=190, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499150.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499150.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499150.png  used on input line 191
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[11 <./Pictures/SCCM/1/1543499076.png> <./Pictures/SCCM/1/1543499145.png>]
+<Pictures/SCCM/1/1543499210.png, id=197, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499210.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499210.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499210.png  used on input line 195
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/1/1543499213.png, id=198, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499213.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499213.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499213.png  used on input line 200
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[12 <./Pictures/SCCM/1/1543499150.png> <./Pictures/SCCM/1/1543499210.png>]
+<Pictures/SCCM/1/1543499275.png, id=205, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499275.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499275.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499275.png  used on input line 205
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/1/1543499288.png, id=206, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499288.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499288.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499288.png  used on input line 210
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[13 <./Pictures/SCCM/1/1543499213.png> <./Pictures/SCCM/1/1543499275.png>]
+<Pictures/SCCM/1/1543499299.png, id=214, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499299.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499299.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499299.png  used on input line 215
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/1/1543499303.png, id=215, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499303.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499303.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499303.png  used on input line 220
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[14 <./Pictures/SCCM/1/1543499288.png> <./Pictures/SCCM/1/1543499299.png>]
+<Pictures/SCCM/1/1543499309.png, id=222, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499309.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499309.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499309.png  used on input line 225
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/1/1543499322.png, id=223, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499322.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499322.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499322.png  used on input line 230
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[15 <./Pictures/SCCM/1/1543499303.png> <./Pictures/SCCM/1/1543499309.png>]
+<Pictures/SCCM/1/1543499331.png, id=230, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499331.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499331.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499331.png  used on input line 235
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/1/1543499333.png, id=231, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499333.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499333.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499333.png  used on input line 240
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[16 <./Pictures/SCCM/1/1543499322.png> <./Pictures/SCCM/1/1543499331.png>]
+<Pictures/SCCM/1/1543499336.png, id=238, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499336.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499336.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499336.png  used on input line 245
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/1/1543499340.png, id=239, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499340.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499340.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499340.png  used on input line 250
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[17 <./Pictures/SCCM/1/1543499333.png> <./Pictures/SCCM/1/1543499336.png>]
+<Pictures/SCCM/1/1543499344.png, id=246, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499344.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499344.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499344.png  used on input line 255
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/1/1543499353.png, id=247, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499353.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499353.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499353.png  used on input line 260
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[18 <./Pictures/SCCM/1/1543499340.png> <./Pictures/SCCM/1/1543499344.png>]
+<Pictures/SCCM/1/1543499355.png, id=254, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/1/1543499355.png Graphic file (type png)
+<use Pictures/SCCM/1/1543499355.png>
+Package pdftex.def Info: Pictures/SCCM/1/1543499355.png  used on input line 266
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/2/1543499664.png, id=255, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/2/1543499664.png Graphic file (type png)
+<use Pictures/SCCM/2/1543499664.png>
+Package pdftex.def Info: Pictures/SCCM/2/1543499664.png  used on input line 272
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[19 <./Pictures/SCCM/1/1543499353.png> <./Pictures/SCCM/1/1543499355.png>]
+<Pictures/SCCM/2/1543499669.png, id=263, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/2/1543499669.png Graphic file (type png)
+<use Pictures/SCCM/2/1543499669.png>
+Package pdftex.def Info: Pictures/SCCM/2/1543499669.png  used on input line 278
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/2/1543499693.png, id=264, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/2/1543499693.png Graphic file (type png)
+<use Pictures/SCCM/2/1543499693.png>
+Package pdftex.def Info: Pictures/SCCM/2/1543499693.png  used on input line 284
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[20 <./Pictures/SCCM/2/1543499664.png> <./Pictures/SCCM/2/1543499669.png>]
+<Pictures/SCCM/2/1543499769.png, id=271, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/2/1543499769.png Graphic file (type png)
+<use Pictures/SCCM/2/1543499769.png>
+Package pdftex.def Info: Pictures/SCCM/2/1543499769.png  used on input line 290
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 292.
+
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 292.
+<Pictures/SCCM/3/1543499830.png, id=272, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/3/1543499830.png Graphic file (type png)
+<use Pictures/SCCM/3/1543499830.png>
+Package pdftex.def Info: Pictures/SCCM/3/1543499830.png  used on input line 296
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [21 <./Pictures/SCCM/2/1543499693.png> <./Pictures/SCCM/2/1543499769.png>]
+<Pictures/SCCM/3/1543499848.png, id=280, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/3/1543499848.png Graphic file (type png)
+<use Pictures/SCCM/3/1543499848.png>
+Package pdftex.def Info: Pictures/SCCM/3/1543499848.png  used on input line 301
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/3/1543499895.png, id=281, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/3/1543499895.png Graphic file (type png)
+<use Pictures/SCCM/3/1543499895.png>
+Package pdftex.def Info: Pictures/SCCM/3/1543499895.png  used on input line 306
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [22 <./Pictures/SCCM/3/1543499830.png> <./Pictures/SCCM/3/1543499848.png>]
+<Pictures/SCCM/3/1543499901.png, id=288, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/3/1543499901.png Graphic file (type png)
+<use Pictures/SCCM/3/1543499901.png>
+Package pdftex.def Info: Pictures/SCCM/3/1543499901.png  used on input line 311
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/3/1543500064.png, id=289, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/3/1543500064.png Graphic file (type png)
+<use Pictures/SCCM/3/1543500064.png>
+Package pdftex.def Info: Pictures/SCCM/3/1543500064.png  used on input line 316
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [23 <./Pictures/SCCM/3/1543499895.png> <./Pictures/SCCM/3/1543499901.png>]
+<Pictures/SCCM/3/1543500068.png, id=296, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/3/1543500068.png Graphic file (type png)
+<use Pictures/SCCM/3/1543500068.png>
+Package pdftex.def Info: Pictures/SCCM/3/1543500068.png  used on input line 321
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/3/1543500082.png, id=297, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/3/1543500082.png Graphic file (type png)
+<use Pictures/SCCM/3/1543500082.png>
+Package pdftex.def Info: Pictures/SCCM/3/1543500082.png  used on input line 326
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [24 <./Pictures/SCCM/3/1543500064.png> <./Pictures/SCCM/3/1543500068.png>]
+<Pictures/SCCM/3/1543500136.png, id=304, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/3/1543500136.png Graphic file (type png)
+<use Pictures/SCCM/3/1543500136.png>
+Package pdftex.def Info: Pictures/SCCM/3/1543500136.png  used on input line 331
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/3/1543500140.png, id=305, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/3/1543500140.png Graphic file (type png)
+<use Pictures/SCCM/3/1543500140.png>
+Package pdftex.def Info: Pictures/SCCM/3/1543500140.png  used on input line 336
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [25 <./Pictures/SCCM/3/1543500082.png> <./Pictures/SCCM/3/1543500136.png>]
+<Pictures/SCCM/3/1543500314.png, id=313, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/3/1543500314.png Graphic file (type png)
+<use Pictures/SCCM/3/1543500314.png>
+Package pdftex.def Info: Pictures/SCCM/3/1543500314.png  used on input line 341
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/4/1543500545.png, id=314, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/4/1543500545.png Graphic file (type png)
+<use Pictures/SCCM/4/1543500545.png>
+Package pdftex.def Info: Pictures/SCCM/4/1543500545.png  used on input line 347
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [26 <./Pictures/SCCM/3/1543500140.png> <./Pictures/SCCM/3/1543500314.png>]
+<Pictures/SCCM/4/1543500555.png, id=321, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/4/1543500555.png Graphic file (type png)
+<use Pictures/SCCM/4/1543500555.png>
+Package pdftex.def Info: Pictures/SCCM/4/1543500555.png  used on input line 352
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/4/1543500557.png, id=322, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/4/1543500557.png Graphic file (type png)
+<use Pictures/SCCM/4/1543500557.png>
+Package pdftex.def Info: Pictures/SCCM/4/1543500557.png  used on input line 357
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [27 <./Pictures/SCCM/4/1543500545.png> <./Pictures/SCCM/4/1543500555.png>]
+<Pictures/SCCM/4/1543500577.png, id=329, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/4/1543500577.png Graphic file (type png)
+<use Pictures/SCCM/4/1543500577.png>
+Package pdftex.def Info: Pictures/SCCM/4/1543500577.png  used on input line 362
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/4/1543500666.png, id=330, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/4/1543500666.png Graphic file (type png)
+<use Pictures/SCCM/4/1543500666.png>
+Package pdftex.def Info: Pictures/SCCM/4/1543500666.png  used on input line 367
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [28 <./Pictures/SCCM/4/1543500557.png> <./Pictures/SCCM/4/1543500577.png>]
+<Pictures/SCCM/4/1543501810.png, id=337, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/4/1543501810.png Graphic file (type png)
+<use Pictures/SCCM/4/1543501810.png>
+Package pdftex.def Info: Pictures/SCCM/4/1543501810.png  used on input line 372
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/5/1543504348.png, id=338, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/5/1543504348.png Graphic file (type png)
+<use Pictures/SCCM/5/1543504348.png>
+Package pdftex.def Info: Pictures/SCCM/5/1543504348.png  used on input line 378
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [29 <./Pictures/SCCM/4/1543500666.png> <./Pictures/SCCM/4/1543501810.png>]
+<Pictures/SCCM/5/1543504358.png, id=345, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/5/1543504358.png Graphic file (type png)
+<use Pictures/SCCM/5/1543504358.png>
+Package pdftex.def Info: Pictures/SCCM/5/1543504358.png  used on input line 383
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/5/1543504368.png, id=346, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/5/1543504368.png Graphic file (type png)
+<use Pictures/SCCM/5/1543504368.png>
+Package pdftex.def Info: Pictures/SCCM/5/1543504368.png  used on input line 388
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [30 <./Pictures/SCCM/5/1543504348.png> <./Pictures/SCCM/5/1543504358.png>]
+<Pictures/SCCM/5/1543504391.png, id=353, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/5/1543504391.png Graphic file (type png)
+<use Pictures/SCCM/5/1543504391.png>
+Package pdftex.def Info: Pictures/SCCM/5/1543504391.png  used on input line 393
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/5/1543504396.png, id=354, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/5/1543504396.png Graphic file (type png)
+<use Pictures/SCCM/5/1543504396.png>
+Package pdftex.def Info: Pictures/SCCM/5/1543504396.png  used on input line 398
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [31 <./Pictures/SCCM/5/1543504368.png> <./Pictures/SCCM/5/1543504391.png>]
+<Pictures/SCCM/6/1543502369.png, id=362, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502369.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502369.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502369.png  used on input line 404
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543502380.png, id=363, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502380.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502380.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502380.png  used on input line 409
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [32 <./Pictures/SCCM/5/1543504396.png> <./Pictures/SCCM/6/1543502369.png>]
+<Pictures/SCCM/6/1543502389.png, id=370, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502389.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502389.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502389.png  used on input line 414
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543502394.png, id=371, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502394.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502394.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502394.png  used on input line 419
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+[33 <./Pictures/SCCM/6/1543502380.png> <./Pictures/SCCM/6/1543502389.png>]
+<Pictures/SCCM/6/1543502403.png, id=378, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502403.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502403.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502403.png  used on input line 424
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543502522.png, id=379, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502522.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502522.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502522.png  used on input line 429
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[34 <./Pictures/SCCM/6/1543502394.png> <./Pictures/SCCM/6/1543502403.png>]
+<Pictures/SCCM/6/1543502769.png, id=386, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502769.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502769.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502769.png  used on input line 434
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543502844.png, id=387, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502844.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502844.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502844.png  used on input line 439
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[35 <./Pictures/SCCM/6/1543502522.png> <./Pictures/SCCM/6/1543502769.png>]
+<Pictures/SCCM/6/1543502847.png, id=394, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502847.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502847.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502847.png  used on input line 444
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543502871.png, id=395, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502871.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502871.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502871.png  used on input line 449
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[36 <./Pictures/SCCM/6/1543502844.png> <./Pictures/SCCM/6/1543502847.png>]
+<Pictures/SCCM/6/1543502888.png, id=402, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502888.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502888.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502888.png  used on input line 454
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543502894.png, id=403, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543502894.png Graphic file (type png)
+<use Pictures/SCCM/6/1543502894.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543502894.png  used on input line 459
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[37 <./Pictures/SCCM/6/1543502871.png> <./Pictures/SCCM/6/1543502888.png>]
+<Pictures/SCCM/6/1543504659.png, id=411, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543504659.png Graphic file (type png)
+<use Pictures/SCCM/6/1543504659.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543504659.png  used on input line 464
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543504663.png, id=412, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543504663.png Graphic file (type png)
+<use Pictures/SCCM/6/1543504663.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543504663.png  used on input line 469
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[38 <./Pictures/SCCM/6/1543502894.png> <./Pictures/SCCM/6/1543504659.png>]
+<Pictures/SCCM/6/1543504665.png, id=420, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543504665.png Graphic file (type png)
+<use Pictures/SCCM/6/1543504665.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543504665.png  used on input line 474
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543504680.png, id=421, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543504680.png Graphic file (type png)
+<use Pictures/SCCM/6/1543504680.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543504680.png  used on input line 479
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[39 <./Pictures/SCCM/6/1543504663.png> <./Pictures/SCCM/6/1543504665.png>]
+<Pictures/SCCM/6/1543504684.png, id=428, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543504684.png Graphic file (type png)
+<use Pictures/SCCM/6/1543504684.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543504684.png  used on input line 484
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543504686.png, id=429, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543504686.png Graphic file (type png)
+<use Pictures/SCCM/6/1543504686.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543504686.png  used on input line 489
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[40 <./Pictures/SCCM/6/1543504680.png> <./Pictures/SCCM/6/1543504684.png>]
+<Pictures/SCCM/6/1543504690.png, id=436, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543504690.png Graphic file (type png)
+<use Pictures/SCCM/6/1543504690.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543504690.png  used on input line 494
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543507674.png, id=437, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543507674.png Graphic file (type png)
+<use Pictures/SCCM/6/1543507674.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543507674.png  used on input line 499
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[41 <./Pictures/SCCM/6/1543504686.png> <./Pictures/SCCM/6/1543504690.png>]
+<Pictures/SCCM/6/1543507677.png, id=444, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543507677.png Graphic file (type png)
+<use Pictures/SCCM/6/1543507677.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543507677.png  used on input line 503
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/SCCM/6/1543508319.png, id=445, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543508319.png Graphic file (type png)
+<use Pictures/SCCM/6/1543508319.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543508319.png  used on input line 506
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[42 <./Pictures/SCCM/6/1543507674.png> <./Pictures/SCCM/6/1543507677.png>]
+<Pictures/SCCM/6/1543511255.png, id=452, 1927.2pt x 1084.05pt>
+File: Pictures/SCCM/6/1543511255.png Graphic file (type png)
+<use Pictures/SCCM/6/1543511255.png>
+Package pdftex.def Info: Pictures/SCCM/6/1543511255.png  used on input line 511
+.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+
+[43 <./Pictures/SCCM/6/1543508319.png> <./Pictures/SCCM/6/1543511255.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 516.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
 
 (./SCCM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 516.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 516.
 Package rerunfilecheck Info: File `SCCM.out' has not changed.
-(rerunfilecheck)             Checksum: 426927FD4F6F3E8C79167F313AF9E89B;363.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+(rerunfilecheck)             Checksum: 8D8629D4C4C9A91C66F93BFDC8098BA6;949.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 516.
  ) 
 Here is how much of TeX's memory you used:
- 15545 strings out of 492642
- 292317 string characters out of 6135565
+ 15958 strings out of 492642
+ 303522 string characters out of 6135565
  360670 words of memory out of 5000000
- 19115 multiletter control sequences out of 15000+600000
+ 19409 multiletter control sequences out of 15000+600000
  8261 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,54p,445b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr17.pfb>
-Output written on SCCM.pdf (9 pages, 935475 bytes).
+amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb>
+Output written on SCCM.pdf (43 pages, 7474497 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
- 59 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 540 words of extra memory for PDF output out of 10000 (max. 10000000)
 
