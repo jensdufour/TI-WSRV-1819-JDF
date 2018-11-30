@@ -6,7 +6,7 @@
 \usepackage{amsmath}
 \usepackage{hyperref}
 
-\title{Windows Server: SQL Server}
+\title{Windows Server: Exchange Server}
 \author{Jens Du Four}
 \date{2018 - 2019}
 
@@ -164,6 +164,34 @@ U bent IT-Consultant en krijgt de vraag om een voorstel te maken en te demonstre
 \clearpage
 
 \section{Installatie Exchange Server}
+\subsection{Aanmaken Exchange-user op DC1}
+	\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/user/1543413338.png}
+\end{center}
+	\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/user/1543413349.png}
+\end{center}
+	\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/user/1543413368.png}
+\end{center}
+	\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/user/1543413379.png}
+\end{center}
+	\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/user/1543413382.png}
+\end{center}
+	\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/user/1543413392.png}
+\end{center}
+	\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/user/1543413451.png}
+\end{center}
+	\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/user/1543413459.png}
+\end{center}
+	\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/user/1543413480.png}
+\end{center}
 \subsection{Prerequisites}
 	\begin{center}
 	\includegraphics[width=15cm]{Pictures/Exchange/Pre/1542632844.png}
@@ -182,20 +210,6 @@ U bent IT-Consultant en krijgt de vraag om een voorstel te maken en te demonstre
 \end{center}
 	\begin{center}
 	\includegraphics[width=15cm]{Pictures/Exchange/Pre/1542633119.png}
-\end{center}
-	\begin{center}
-	\includegraphics[width=15cm]{Pictures/Exchange/Pre/1542633454.png}
-	
-	Installeer Java.
-\end{center}
-	\begin{center}
-	\includegraphics[width=15cm]{Pictures/Exchange/Pre/1542633458.png}
-\end{center}
-	\begin{center}
-	\includegraphics[width=15cm]{Pictures/Exchange/Pre/1542633460.png}
-\end{center}
-	\begin{center}
-	\includegraphics[width=15cm]{Pictures/Exchange/Pre/1542633487.png}
 \end{center}
 	\begin{center}
 	\includegraphics[width=15cm]{Pictures/Exchange/Pre/1542633495.png}
@@ -227,11 +241,119 @@ U bent IT-Consultant en krijgt de vraag om een voorstel te maken en te demonstre
 	\begin{center}
 	\includegraphics[width=15cm]{Pictures/Exchange/Pre/1542633844.png}
 \end{center}
-	\begin{center}
+\begin{center}
 	\includegraphics[width=15cm]{Pictures/Exchange/Pre/1542633852.png}
 	
 	Installeer "Microsoft Visual C++ 2013".
-	
-\subsection{Installatie Exchange Server}	
 \end{center}
+\subsection{Installatie Exchange Server}	
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712869.png}
+	
+Zeok naar updates voor de start van de installatie.
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712875.png}
+	
+	Ga verder na het zoeken naar updates.
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712878.png}
+	
+	
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712954.png}
+	
+	
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712958.png}
+	
+	Ga akkoord met de licentievoorwaarden.
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712963.png}
+	
+	Selecteer "Don't use recommended settings".
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712969.png}
+	
+	Selecteer "Mailbox role".
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712972.png}
+	
+	
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712976.png}
+	
+	Geef "jenduf" in als organisatienaam.
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712978.png}
+	
+	Selecteer "No" voor de malwarebescherming.
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542712981.png}
+	
+	
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542723945.png}
+	
+	
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542726465.png}
+	
+	
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542727944.png}
+	
+
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/install/1542728003.png}
+	
+		Vink het selectievak aan en klik op "finish".
+\end{center}
+\subsection{Configuratie Exchange-server}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/config/1543422514.png}
+	Log in met de vooraf aangemaakt Exchange-gebruiker.
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/config/1543424938.png}
+	Selecteer de voorkeurstaal en stel de tijdszone in op Brussel.
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/config/1543425072.png}
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/config/1543425094.png}
+	Navigeer naar de "send connectors" in de optie "mail flow".
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/config/1543425117.png}
+	Voeg een nieuwe "send connector" en selecteer de optie "Internet".
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/config/1543425143.png}
+	Geef een "*" (Asterisk) in als "FQDN".
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/config/1543425170.png}
+	Selecteer de Exchange-server als "Source server"
+\end{center}
+\begin{center}
+	\includegraphics[width=15cm]{Pictures/Exchange/config/1543425167.png}
+\end{center}
+
+\subsection{Testen Exchange-server}
+
 \end{document}

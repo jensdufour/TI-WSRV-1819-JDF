@@ -5,5 +5,8 @@
 \BOOKMARK [2][-]{subsection.3.2}{IP Instellingen}{section.3}% 5
 \BOOKMARK [2][-]{subsection.3.3}{Toevoegen aan het domein}{section.3}% 6
 \BOOKMARK [1][-]{section.4}{Installatie Exchange Server}{}% 7
-\BOOKMARK [2][-]{subsection.4.1}{Prerequisites}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.2}{Installatie Exchange Server}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Aanmaken Exchange-user op DC1}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Prerequisites}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.3}{Installatie Exchange Server}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.4}{Configuratie Exchange-server}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.5}{Testen Exchange-server}{section.4}% 12

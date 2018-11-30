@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.11.15)  26 NOV 2018 09:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.11.15)  29 NOV 2018 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -543,7 +543,7 @@ LaTeX Info: Redefining \nameref on input line 13.
 \@outlinefile=\write4
 \openout4 = `Exchange.out'.
 
-<Netwerkdiagram.png, id=43, 363.3575pt x 218.8175pt>
+<Netwerkdiagram.png, id=55, 363.3575pt x 218.8175pt>
 File: Netwerkdiagram.png Graphic file (type png)
 <use Netwerkdiagram.png>
 Package pdftex.def Info: Netwerkdiagram.png  used on input line 21.
@@ -551,7 +551,7 @@ Package pdftex.def Info: Netwerkdiagram.png  used on input line 21.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Netwerkdiagram.png>]
-<Pictures/Windows_Install/1542293852.png, id=63, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293852.png, id=75, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293852.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293852.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293852.png  used on input
@@ -560,13 +560,13 @@ Package pdftex.def Info: Pictures/Windows_Install/1542293852.png  used on input
  [2
 
 ]
-<Pictures/Windows_Install/1542293872.png, id=103, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293872.png, id=115, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293872.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293872.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293872.png  used on input
  line 104.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Windows_Install/1542293887.png, id=104, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293887.png, id=116, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293887.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293887.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293887.png  used on input
@@ -574,13 +574,13 @@ Package pdftex.def Info: Pictures/Windows_Install/1542293887.png  used on input
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [3 <./Pictures/Windows_Install/1542293852.png> <./Pictures/Windows_Install/154
 2293872.png>]
-<Pictures/Windows_Install/1542293899.png, id=111, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293899.png, id=123, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293899.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293899.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293899.png  used on input
  line 112.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Windows_Install/1542293908.png, id=112, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293908.png, id=124, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293908.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293908.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293908.png  used on input
@@ -588,13 +588,13 @@ Package pdftex.def Info: Pictures/Windows_Install/1542293908.png  used on input
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [4 <./Pictures/Windows_Install/1542293887.png> <./Pictures/Windows_Install/154
 2293899.png>]
-<Pictures/Windows_Install/1542293921.png, id=119, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293921.png, id=131, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293921.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293921.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293921.png  used on input
  line 122.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Windows_Install/1542293929.png, id=120, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293929.png, id=132, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293929.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293929.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293929.png  used on input
@@ -602,13 +602,13 @@ Package pdftex.def Info: Pictures/Windows_Install/1542293929.png  used on input
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [5 <./Pictures/Windows_Install/1542293908.png> <./Pictures/Windows_Install/154
 2293921.png>]
-<Pictures/Windows_Install/1542293934.png, id=127, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293934.png, id=139, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293934.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293934.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293934.png  used on input
  line 132.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Windows_Install/1542293945.png, id=128, 1927.2pt x 1084.05pt>
+<Pictures/Windows_Install/1542293945.png, id=140, 1927.2pt x 1084.05pt>
 File: Pictures/Windows_Install/1542293945.png Graphic file (type png)
 <use Pictures/Windows_Install/1542293945.png>
 Package pdftex.def Info: Pictures/Windows_Install/1542293945.png  used on input
@@ -617,13 +617,13 @@ Package pdftex.def Info: Pictures/Windows_Install/1542293945.png  used on input
 
 [6 <./Pictures/Windows_Install/1542293929.png> <./Pictures/Windows_Install/1542
 293934.png>]
-<Pictures/Exchange/1542621993.png, id=135, 1927.2pt x 1084.05pt>
+<Pictures/Exchange/1542621993.png, id=147, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/1542621993.png Graphic file (type png)
 <use Pictures/Exchange/1542621993.png>
 Package pdftex.def Info: Pictures/Exchange/1542621993.png  used on input line 1
 41.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/1542622148.png, id=136, 1927.2pt x 1084.05pt>
+<Pictures/Exchange/1542622148.png, id=148, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/1542622148.png Graphic file (type png)
 <use Pictures/Exchange/1542622148.png>
 Package pdftex.def Info: Pictures/Exchange/1542622148.png  used on input line 1
@@ -631,161 +631,358 @@ Package pdftex.def Info: Pictures/Exchange/1542622148.png  used on input line 1
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [7 <./Pictures/Windows_Install/1542293945.png> <./Pictures/Exchange/1542621993
 .png>]
-<Pictures/Exchange/1542622164.png, id=144, 1927.2pt x 1084.05pt>
+<Pictures/Exchange/1542622164.png, id=156, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/1542622164.png Graphic file (type png)
 <use Pictures/Exchange/1542622164.png>
 Package pdftex.def Info: Pictures/Exchange/1542622164.png  used on input line 1
 49.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/1542622176.png, id=145, 1927.2pt x 1084.05pt>
+<Pictures/Exchange/1542622176.png, id=157, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/1542622176.png Graphic file (type png)
 <use Pictures/Exchange/1542622176.png>
 Package pdftex.def Info: Pictures/Exchange/1542622176.png  used on input line 1
 54.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [8 <./Pictures/Exchange/1542622148.png> <./Pictures/Exchange/1542622164.png>]
-<Pictures/Exchange/1542622272.png, id=152, 1927.2pt x 1084.05pt>
+<Pictures/Exchange/1542622272.png, id=164, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/1542622272.png Graphic file (type png)
 <use Pictures/Exchange/1542622272.png>
 Package pdftex.def Info: Pictures/Exchange/1542622272.png  used on input line 1
 59.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [9 <./Pictures/Exchange/1542622176.png> <./Pictures/Exchange/1542622272.png>]
-<Pictures/Exchange/Pre/1542632844.png, id=159, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/Pre/1542632844.png Graphic file (type png)
-<use Pictures/Exchange/Pre/1542632844.png>
-Package pdftex.def Info: Pictures/Exchange/Pre/1542632844.png  used on input li
-ne 169.
+<Pictures/Exchange/user/1543413338.png, id=172, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/user/1543413338.png Graphic file (type png)
+<use Pictures/Exchange/user/1543413338.png>
+Package pdftex.def Info: Pictures/Exchange/user/1543413338.png  used on input l
+ine 169.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/Pre/1542632849.png, id=160, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/Pre/1542632849.png Graphic file (type png)
-<use Pictures/Exchange/Pre/1542632849.png>
-Package pdftex.def Info: Pictures/Exchange/Pre/1542632849.png  used on input li
-ne 174.
+<Pictures/Exchange/user/1543413349.png, id=173, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/user/1543413349.png Graphic file (type png)
+<use Pictures/Exchange/user/1543413349.png>
+Package pdftex.def Info: Pictures/Exchange/user/1543413349.png  used on input l
+ine 172.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/Pre/1542632856.png, id=161, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/Pre/1542632856.png Graphic file (type png)
-<use Pictures/Exchange/Pre/1542632856.png>
-Package pdftex.def Info: Pictures/Exchange/Pre/1542632856.png  used on input li
-ne 179.
+<Pictures/Exchange/user/1543413368.png, id=174, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/user/1543413368.png Graphic file (type png)
+<use Pictures/Exchange/user/1543413368.png>
+Package pdftex.def Info: Pictures/Exchange/user/1543413368.png  used on input l
+ine 175.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
  [10
 
- <./Pictures/Exchange/Pre/1542632844.png> <./Pictures/Exchange/Pre/1542632849.p
-ng>]
-<Pictures/Exchange/Pre/1542633119.png, id=169, 1927.2pt x 1084.05pt>
+ <./Pictures/Exchange/user/1543413338.png> <./Pictures/Exchange/user/1543413349
+.png>]
+<Pictures/Exchange/user/1543413379.png, id=181, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/user/1543413379.png Graphic file (type png)
+<use Pictures/Exchange/user/1543413379.png>
+Package pdftex.def Info: Pictures/Exchange/user/1543413379.png  used on input l
+ine 178.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/user/1543413382.png, id=182, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/user/1543413382.png Graphic file (type png)
+<use Pictures/Exchange/user/1543413382.png>
+Package pdftex.def Info: Pictures/Exchange/user/1543413382.png  used on input l
+ine 181.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [11 <./Pictures/Exchange/user/1543413368.png> <./Pictures/Exchange/user/154341
+3379.png>]
+<Pictures/Exchange/user/1543413392.png, id=189, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/user/1543413392.png Graphic file (type png)
+<use Pictures/Exchange/user/1543413392.png>
+Package pdftex.def Info: Pictures/Exchange/user/1543413392.png  used on input l
+ine 184.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/user/1543413451.png, id=190, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/user/1543413451.png Graphic file (type png)
+<use Pictures/Exchange/user/1543413451.png>
+Package pdftex.def Info: Pictures/Exchange/user/1543413451.png  used on input l
+ine 187.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [12 <./Pictures/Exchange/user/1543413382.png> <./Pictures/Exchange/user/154341
+3392.png>]
+<Pictures/Exchange/user/1543413459.png, id=197, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/user/1543413459.png Graphic file (type png)
+<use Pictures/Exchange/user/1543413459.png>
+Package pdftex.def Info: Pictures/Exchange/user/1543413459.png  used on input l
+ine 190.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/user/1543413480.png, id=198, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/user/1543413480.png Graphic file (type png)
+<use Pictures/Exchange/user/1543413480.png>
+Package pdftex.def Info: Pictures/Exchange/user/1543413480.png  used on input l
+ine 193.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [13 <./Pictures/Exchange/user/1543413451.png> <./Pictures/Exchange/user/154341
+3459.png>]
+<Pictures/Exchange/Pre/1542632844.png, id=206, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/Pre/1542632844.png Graphic file (type png)
+<use Pictures/Exchange/Pre/1542632844.png>
+Package pdftex.def Info: Pictures/Exchange/Pre/1542632844.png  used on input li
+ne 197.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/Pre/1542632849.png, id=207, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/Pre/1542632849.png Graphic file (type png)
+<use Pictures/Exchange/Pre/1542632849.png>
+Package pdftex.def Info: Pictures/Exchange/Pre/1542632849.png  used on input li
+ne 202.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [14 <./Pictures/Exchange/user/1543413480.png> <./Pictures/Exchange/Pre/1542632
+844.png>]
+<Pictures/Exchange/Pre/1542632856.png, id=214, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/Pre/1542632856.png Graphic file (type png)
+<use Pictures/Exchange/Pre/1542632856.png>
+Package pdftex.def Info: Pictures/Exchange/Pre/1542632856.png  used on input li
+ne 207.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/Pre/1542633119.png, id=215, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/Pre/1542633119.png Graphic file (type png)
 <use Pictures/Exchange/Pre/1542633119.png>
 Package pdftex.def Info: Pictures/Exchange/Pre/1542633119.png  used on input li
-ne 184.
+ne 212.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/Pre/1542633454.png, id=170, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/Pre/1542633454.png Graphic file (type png)
-<use Pictures/Exchange/Pre/1542633454.png>
-Package pdftex.def Info: Pictures/Exchange/Pre/1542633454.png  used on input li
-ne 187.
-(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
- [11 <./Pictures/Exchange/Pre/1542632856.png> <./Pictures/Exchange/Pre/15426331
-19.png>]
-<Pictures/Exchange/Pre/1542633458.png, id=177, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/Pre/1542633458.png Graphic file (type png)
-<use Pictures/Exchange/Pre/1542633458.png>
-Package pdftex.def Info: Pictures/Exchange/Pre/1542633458.png  used on input li
-ne 192.
-(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/Pre/1542633460.png, id=178, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/Pre/1542633460.png Graphic file (type png)
-<use Pictures/Exchange/Pre/1542633460.png>
-Package pdftex.def Info: Pictures/Exchange/Pre/1542633460.png  used on input li
-ne 195.
-(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
- [12 <./Pictures/Exchange/Pre/1542633454.png> <./Pictures/Exchange/Pre/15426334
-58.png>]
-<Pictures/Exchange/Pre/1542633487.png, id=185, 1927.2pt x 1084.05pt>
-File: Pictures/Exchange/Pre/1542633487.png Graphic file (type png)
-<use Pictures/Exchange/Pre/1542633487.png>
-Package pdftex.def Info: Pictures/Exchange/Pre/1542633487.png  used on input li
-ne 198.
-(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/Pre/1542633495.png, id=186, 1927.2pt x 1084.05pt>
+ [15 <./Pictures/Exchange/Pre/1542632849.png> <./Pictures/Exchange/Pre/15426328
+56.png>]
+<Pictures/Exchange/Pre/1542633495.png, id=222, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/Pre/1542633495.png Graphic file (type png)
 <use Pictures/Exchange/Pre/1542633495.png>
 Package pdftex.def Info: Pictures/Exchange/Pre/1542633495.png  used on input li
-ne 201.
+ne 215.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
- [13 <./Pictures/Exchange/Pre/1542633460.png> <./Pictures/Exchange/Pre/15426334
-87.png>]
-<Pictures/Exchange/Pre/1542633503.png, id=194, 1927.2pt x 1084.05pt>
+<Pictures/Exchange/Pre/1542633503.png, id=223, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/Pre/1542633503.png Graphic file (type png)
 <use Pictures/Exchange/Pre/1542633503.png>
 Package pdftex.def Info: Pictures/Exchange/Pre/1542633503.png  used on input li
-ne 204.
+ne 218.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/Pre/1542633506.png, id=195, 1927.2pt x 1084.05pt>
+
+[16 <./Pictures/Exchange/Pre/1542633119.png> <./Pictures/Exchange/Pre/154263349
+5.png>]
+<Pictures/Exchange/Pre/1542633506.png, id=230, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/Pre/1542633506.png Graphic file (type png)
 <use Pictures/Exchange/Pre/1542633506.png>
 Package pdftex.def Info: Pictures/Exchange/Pre/1542633506.png  used on input li
-ne 209.
+ne 223.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
- [14 <./Pictures/Exchange/Pre/1542633495.png> <./Pictures/Exchange/Pre/15426335
-03.png>]
-<Pictures/Exchange/Pre/1542633791.png, id=202, 1927.2pt x 1084.05pt>
+<Pictures/Exchange/Pre/1542633791.png, id=231, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/Pre/1542633791.png Graphic file (type png)
 <use Pictures/Exchange/Pre/1542633791.png>
 Package pdftex.def Info: Pictures/Exchange/Pre/1542633791.png  used on input li
-ne 212.
+ne 226.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/Pre/1542633810.png, id=203, 1927.2pt x 1084.05pt>
+ [17 <./Pictures/Exchange/Pre/1542633503.png> <./Pictures/Exchange/Pre/15426335
+06.png>]
+<Pictures/Exchange/Pre/1542633810.png, id=238, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/Pre/1542633810.png Graphic file (type png)
 <use Pictures/Exchange/Pre/1542633810.png>
 Package pdftex.def Info: Pictures/Exchange/Pre/1542633810.png  used on input li
-ne 217.
+ne 231.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
- [15 <./Pictures/Exchange/Pre/1542633506.png> <./Pictures/Exchange/Pre/15426337
-91.png>]
-<Pictures/Exchange/Pre/1542633813.png, id=210, 1927.2pt x 1084.05pt>
+<Pictures/Exchange/Pre/1542633813.png, id=239, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/Pre/1542633813.png Graphic file (type png)
 <use Pictures/Exchange/Pre/1542633813.png>
 Package pdftex.def Info: Pictures/Exchange/Pre/1542633813.png  used on input li
-ne 220.
+ne 234.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/Pre/1542633816.png, id=211, 1927.2pt x 1084.05pt>
+ [18 <./Pictures/Exchange/Pre/1542633791.png> <./Pictures/Exchange/Pre/15426338
+10.png>]
+<Pictures/Exchange/Pre/1542633816.png, id=246, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/Pre/1542633816.png Graphic file (type png)
 <use Pictures/Exchange/Pre/1542633816.png>
 Package pdftex.def Info: Pictures/Exchange/Pre/1542633816.png  used on input li
-ne 225.
+ne 239.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
- [16 <./Pictures/Exchange/Pre/1542633810.png> <./Pictures/Exchange/Pre/15426338
-13.png>]
-<Pictures/Exchange/Pre/1542633844.png, id=218, 1927.2pt x 1084.05pt>
+<Pictures/Exchange/Pre/1542633844.png, id=247, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/Pre/1542633844.png Graphic file (type png)
 <use Pictures/Exchange/Pre/1542633844.png>
 Package pdftex.def Info: Pictures/Exchange/Pre/1542633844.png  used on input li
-ne 228.
+ne 242.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
-<Pictures/Exchange/Pre/1542633852.png, id=219, 1927.2pt x 1084.05pt>
+ [19 <./Pictures/Exchange/Pre/1542633813.png> <./Pictures/Exchange/Pre/15426338
+16.png>]
+<Pictures/Exchange/Pre/1542633852.png, id=255, 1927.2pt x 1084.05pt>
 File: Pictures/Exchange/Pre/1542633852.png Graphic file (type png)
 <use Pictures/Exchange/Pre/1542633852.png>
 Package pdftex.def Info: Pictures/Exchange/Pre/1542633852.png  used on input li
-ne 231.
+ne 245.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/install/1542712869.png, id=256, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712869.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712869.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712869.png  used on inpu
+t line 251.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [20 <./Pictures/Exchange/Pre/1542633844.png> <./Pictures/Exchange/Pre/15426338
+52.png>]
+<Pictures/Exchange/install/1542712875.png, id=263, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712875.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712875.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712875.png  used on inpu
+t line 256.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/install/1542712878.png, id=264, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712878.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712878.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712878.png  used on inpu
+t line 261.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [21 <./Pictures/Exchange/install/1542712869.png> <./Pictures/Exchange/install/
+1542712875.png>]
+<Pictures/Exchange/install/1542712954.png, id=271, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712954.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712954.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712954.png  used on inpu
+t line 266.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/install/1542712958.png, id=272, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712958.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712958.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712958.png  used on inpu
+t line 271.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [22 <./Pictures/Exchange/install/1542712878.png> <./Pictures/Exchange/install/
+1542712954.png>]
+<Pictures/Exchange/install/1542712963.png, id=279, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712963.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712963.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712963.png  used on inpu
+t line 276.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/install/1542712969.png, id=280, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712969.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712969.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712969.png  used on inpu
+t line 281.
 (pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
 
-[17 <./Pictures/Exchange/Pre/1542633816.png> <./Pictures/Exchange/Pre/154263384
-4.png>] [18 <./Pictures/Exchange/Pre/1542633852.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+[23 <./Pictures/Exchange/install/1542712958.png> <./Pictures/Exchange/install/1
+542712963.png>]
+<Pictures/Exchange/install/1542712972.png, id=287, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712972.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712972.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712972.png  used on inpu
+t line 286.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/install/1542712976.png, id=288, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712976.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712976.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712976.png  used on inpu
+t line 291.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [24 <./Pictures/Exchange/install/1542712969.png> <./Pictures/Exchange/install/
+1542712972.png>]
+<Pictures/Exchange/install/1542712978.png, id=295, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712978.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712978.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712978.png  used on inpu
+t line 296.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/install/1542712981.png, id=296, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542712981.png Graphic file (type png)
+<use Pictures/Exchange/install/1542712981.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542712981.png  used on inpu
+t line 301.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [25 <./Pictures/Exchange/install/1542712976.png> <./Pictures/Exchange/install/
+1542712978.png>]
+<Pictures/Exchange/install/1542723945.png, id=304, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542723945.png Graphic file (type png)
+<use Pictures/Exchange/install/1542723945.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542723945.png  used on inpu
+t line 306.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/install/1542726465.png, id=305, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542726465.png Graphic file (type png)
+<use Pictures/Exchange/install/1542726465.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542726465.png  used on inpu
+t line 311.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [26 <./Pictures/Exchange/install/1542712981.png> <./Pictures/Exchange/install/
+1542723945.png>]
+<Pictures/Exchange/install/1542727944.png, id=312, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542727944.png Graphic file (type png)
+<use Pictures/Exchange/install/1542727944.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542727944.png  used on inpu
+t line 316.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/install/1542728003.png, id=313, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/install/1542728003.png Graphic file (type png)
+<use Pictures/Exchange/install/1542728003.png>
+Package pdftex.def Info: Pictures/Exchange/install/1542728003.png  used on inpu
+t line 321.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [27 <./Pictures/Exchange/install/1542726465.png> <./Pictures/Exchange/install/
+1542727944.png>]
+<Pictures/Exchange/config/1543422514.png, id=320, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/config/1543422514.png Graphic file (type png)
+<use Pictures/Exchange/config/1543422514.png>
+Package pdftex.def Info: Pictures/Exchange/config/1543422514.png  used on input
+ line 327.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/config/1543424938.png, id=321, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/config/1543424938.png Graphic file (type png)
+<use Pictures/Exchange/config/1543424938.png>
+Package pdftex.def Info: Pictures/Exchange/config/1543424938.png  used on input
+ line 331.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+[28 <./Pictures/Exchange/install/1542728003.png> <./Pictures/Exchange/config/15
+43422514.png>]
+<Pictures/Exchange/config/1543425072.png, id=328, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/config/1543425072.png Graphic file (type png)
+<use Pictures/Exchange/config/1543425072.png>
+Package pdftex.def Info: Pictures/Exchange/config/1543425072.png  used on input
+ line 335.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/config/1543425094.png, id=329, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/config/1543425094.png Graphic file (type png)
+<use Pictures/Exchange/config/1543425094.png>
+Package pdftex.def Info: Pictures/Exchange/config/1543425094.png  used on input
+ line 338.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [29 <./Pictures/Exchange/config/1543424938.png> <./Pictures/Exchange/config/15
+43425072.png>]
+<Pictures/Exchange/config/1543425117.png, id=336, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/config/1543425117.png Graphic file (type png)
+<use Pictures/Exchange/config/1543425117.png>
+Package pdftex.def Info: Pictures/Exchange/config/1543425117.png  used on input
+ line 342.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/config/1543425143.png, id=337, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/config/1543425143.png Graphic file (type png)
+<use Pictures/Exchange/config/1543425143.png>
+Package pdftex.def Info: Pictures/Exchange/config/1543425143.png  used on input
+ line 346.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [30 <./Pictures/Exchange/config/1543425094.png> <./Pictures/Exchange/config/15
+43425117.png>]
+<Pictures/Exchange/config/1543425170.png, id=344, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/config/1543425170.png Graphic file (type png)
+<use Pictures/Exchange/config/1543425170.png>
+Package pdftex.def Info: Pictures/Exchange/config/1543425170.png  used on input
+ line 350.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+<Pictures/Exchange/config/1543425167.png, id=345, 1927.2pt x 1084.05pt>
+File: Pictures/Exchange/config/1543425167.png Graphic file (type png)
+<use Pictures/Exchange/config/1543425167.png>
+Package pdftex.def Info: Pictures/Exchange/config/1543425167.png  used on input
+ line 354.
+(pdftex.def)             Requested size: 426.79134pt x 240.06316pt.
+ [31 <./Pictures/Exchange/config/1543425143.png> <./Pictures/Exchange/config/15
+43425170.png>] [32 <./Pictures/Exchange/config/1543425167.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
  (./Exchange.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `Exchange.out' has not changed.
-(rerunfilecheck)             Checksum: B0EED2DC2E0AF035DBC163652600B53F;563.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
+(rerunfilecheck)             Checksum: EFCE052435187A5D1D3176988366829D;792.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 15646 strings out of 492642
- 295543 string characters out of 6135565
- 360669 words of memory out of 5000000
- 19186 multiletter control sequences out of 15000+600000
+ 15809 strings out of 492642
+ 301133 string characters out of 6135565
+ 360674 words of memory out of 5000000
+ 19301 multiletter control sequences out of 15000+600000
  8261 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,54p,449b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -793,10 +990,10 @@ Here is how much of TeX's memory you used:
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr17.pfb>
-Output written on Exchange.pdf (18 pages, 5415124 bytes).
+Output written on Exchange.pdf (32 pages, 11811042 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 71 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 409 words of extra memory for PDF output out of 10000 (max. 10000000)
 
