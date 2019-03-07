@@ -1,9 +1,0 @@
-\BOOKMARK [1][-]{section.1}{Introductie}{}% 1
-\BOOKMARK [1][-]{section.2}{Server Requirements}{}% 2
-\BOOKMARK [1][-]{section.3}{Windows Server Installatie}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Server Hernoemen}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{IP Instellingen}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.3}{Toevoegen aan het domein}{section.3}% 6
-\BOOKMARK [1][-]{section.4}{Installatie SQL Server}{}% 7
-\BOOKMARK [1][-]{section.5}{Connectie vanop DC1}{}% 8
-\BOOKMARK [1][-]{section.6}{Powershell}{}% 9
