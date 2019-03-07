@@ -2,19 +2,12 @@ sudo: required
 services:
 - docker
 script:
-- docker pull dxjoke/tectonic-docker
-- docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker
-  /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/DC1.tex; tectonic bachproef/DC1.tex"
-- docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker
-  /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/DC2.tex; tectonic reports/DC2.tex"
-- docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker
-  /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/SQL.tex; tectonic reports/SQL.tex"
-- docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker
-  /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/SCCM.tex; tectonic
-  reports/SCCM.tex"
-- docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker
-  /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/Exchange.tex; tectonic
-  reports/Exchange.tex"
+ - docker pull dxjoke/tectonic-docker
+ - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/DC1.tex; tectonic reports/DC1.tex"
+ - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/DC2.tex; tectonic reports/DC2.tex"
+ - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/SQL.tex; tectonic reports/SQL.tex"
+ - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/SCCM.tex; tectonic reports/SCCM.tex"
+ - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/Exchange.tex; tectonic reports/Exchange.tex"
 deploy:
   provider: releases
   api_key:
