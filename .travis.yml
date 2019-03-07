@@ -1,0 +1,25 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+ - docker pull dxjoke/tectonic-docker
+ - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/DC1.tex"
+ - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/DC2.tex"
+ - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/Exchange.tex"
+ - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/SCCM.tex"
+ - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic --keep-intermediates --reruns 0 reports/SQL.tex"
+ deploy:
+  provider: releases
+  api_key:
+    secure: kwPiCfRaA54aRqdDoFaLc/EAc4ik4eHS6L8D4akPBtWCN4TFdZ5Mblrz7pGDspzIc9J+fHG8sVsrSoNcWrAuoLWtGm3ZW7nZAP+Iw+JNR7S4mJpmhaJpQVsEVQv9m93Eu8dDJzWSMEFlrZfkLuBihRhC28drxCJRuecmbWdgfXCGOzD0Z+DrKgrLdZT1FPzP4dDv77Gz98l2hK7z1k6drRp95f/eiIad3pdvXv0MD3VLU5TO6u+eT/YNs8NikwyKs8GkzkPCtdE12mahx1RzjGqHcQiNUTfNptWt4k9RepyOWvpoIF9L5fVTNXkg3jd0AZWusFJu8wzl7r4mvJW2pXv5bdOzACwEAJsBXCkKbJqslhDZRS3B8Ru794m54g1J6IBzfhusIANXhzn4L5ySbos89nZ1XibHqwyyxJIP1FbAyHbDu+6G9rsx4KKagDgnMDgO+fAL6K3kTPSHNC6AQodtlfyA22vD+TB1kk1qhKmFhqcOwmWfxK4F8IuTjoHmMvPQ9TMsv9CDkGg+XAEF9MGl1RMEQuLdY/kgcNnhTekkjue3lwme4xa0wv27txbQQXkHMJ0wzknHGOTxqesX/v3GQa+erWDkA0jnNIpuwPUBeNz1uFiVi5PoHj3A19EMqT0siNqFItVko9U6+NsqksdQiDO31eZWABsJce+qoT4=
+  file:
+    - "reports/DC1.pdf"
+    - "reports/DC2.pdf"
+    - "reports/SQL.pdf"
+    - "reports/SCCM.pdf"
+    - "reports/Exchange.pdf"
+  skip_cleanup: true
+  on:
+    repo: jensdufour/wsrv-1819-jensdufourhogent
