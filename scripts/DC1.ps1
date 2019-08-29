@@ -8,10 +8,22 @@ Workflow DC_Setup {
     Restart-Computer -Wait
     # Change networksettings
     New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress $ip -PrefixLength 24 -DefaultGateway $ip
-    Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses $ip
+    Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses $ip, "8.8.8.8"   
     # Install Forest
-    InlineScript{ Install-WindowsFeature AD-Domain-Services -IncludeManagementTools }
-    InlineScript{Install-ADDSForest -DomainName $domainname -SafeModeAdministratorPassword:($password) -Force}
+    InlineScript { Install-WindowsFeature AD-Domain-Services -IncludeManagementTools }
+    InlineScript { Install-ADDSForest `
+            -DomainName $domainname `
+            -CreateDnsDelegation:$false `
+            -DatabasePath "C:\Windows\NTDS" `
+            -DomainMode "7" `
+            -DomainNetbiosName "REBELADMIN" `
+            -ForestMode "7" `
+            -InstallDns:$true `
+            -LogPath "C:\Windows\NTDS" `
+            -NoRebootOnCompletion:$True `
+            -SysvolPath "C:\Windows\SYSVOL" `
+            -SafeModeAdministratorPassword:($password) `
+            -Force:$true }
     Unregister-ScheduledJob -Name ResumeScript
     Restart-computer
 }

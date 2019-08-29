@@ -16,7 +16,19 @@ Workflow DC_Setup {
     Add-Computer -DomainName $domain -Credential $credential
     # Install Forest
     InlineScript { Install-WindowsFeature AD-Domain-Services -IncludeManagementTools }
-    InlineScript { Install-ADDSForest -DomainName $domainname -SafeModeAdministratorPassword:($password) -Force }
+    InlineScript { Install-ADDSForest `
+        -DomainName $domainname `
+        -CreateDnsDelegation:$false `
+        -DatabasePath "C:\Windows\NTDS" `
+        -DomainMode "7" `
+        -DomainNetbiosName "REBELADMIN" `
+        -ForestMode "7" `
+        -InstallDns:$true `
+        -LogPath "C:\Windows\NTDS" `
+        -NoRebootOnCompletion:$True `
+        -SysvolPath "C:\Windows\SYSVOL" `
+        -SafeModeAdministratorPassword:($password) `
+        -Force:$true }
     Unregister-ScheduledJob -Name ResumeScript
     Restart-computer
 }
