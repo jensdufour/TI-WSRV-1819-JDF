@@ -23,7 +23,6 @@ function joinDomain {
 # Install Forest
 function changeDomain {
     $domainname = "AXXESTRAINEE.COM"
-    $netbios = "AXXESTRAINEE"
     $password = "P@ssw0rd" | ConvertTo-SecureString -AsPlainText -Force
     Install-WindowsFeature AD-Domain-Services -IncludeManagementTools 
     Install-ADDSDomainController -DomainName $domainname -CreateDnsDelegation:$false -DatabasePath "C:\Windows\NTDS" -InstallDns:$true -LogPath "C:\Windows\NTDS" -NoRebootOnCompletion:$True -SysvolPath "C:\Windows\SYSVOL" -SafeModeAdministratorPassword:($password) -Force:$true 
