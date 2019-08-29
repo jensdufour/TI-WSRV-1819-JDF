@@ -1,48 +1,41 @@
-Workflow DC_Setup {
+# Change hostname
+function changeHostname {
     $hostname = "WS-GUI"
-    $domainname = "AXXESTRAINEE.COM"
+    Rename-Computer -ComputerName $env:COMPUTERNAME -newName $hostname -Force
+    Restart-Computer
+}
+# Change networksettings
+function changeNetworkSettings {
     $ip = "172.16.1.2"
     $gw = "172.16.1.1"
-    $password = ConvertTo-SecureString -String "P@ssw0rd" -AsPlainText -Force
-    # Change hostname
-    Rename-Computer -PSComputerName $env:COMPUTERNAME -newName $hostname -Force
-    Restart-Computer -Wait
-    # Change networksettings
     New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress $ip -PrefixLength 24 -DefaultGateway $gw
     Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses $gw, $ip
-    # Join existing Domain
+}
+# Join existing Domain
+function joinDomain {
+    $domainname = "AXXESTRAINEE.COM"
     $username = "$domainname\Administrator"
+    $password = "P@ssw0rd" | ConvertTo-SecureString -AsPlainText -Force
     $credential = New-Object System.Management.Automation.PSCredential($username, $password)
-    Add-Computer -DomainName $domain -Credential $credential
-    # Install Forest
-    InlineScript { Install-WindowsFeature AD-Domain-Services -IncludeManagementTools }
-    InlineScript { Install-ADDSForest `
-        -DomainName $domainname `
-        -CreateDnsDelegation:$false `
-        -DatabasePath "C:\Windows\NTDS" `
-        -DomainMode "7" `
-        -DomainNetbiosName "REBELADMIN" `
-        -ForestMode "7" `
-        -InstallDns:$true `
-        -LogPath "C:\Windows\NTDS" `
-        -NoRebootOnCompletion:$True `
-        -SysvolPath "C:\Windows\SYSVOL" `
-        -SafeModeAdministratorPassword:($password) `
-        -Force:$true }
-    Unregister-ScheduledJob -Name ResumeScript
+    Add-Computer -DomainName $domainname -Credential $credential
     Restart-computer
 }
-# -------------------------------------------------------------------------
-# Resume at Startup-Trigger
-# -------------------------------------------------------------------------
-$adm = "Administrator"
-$pwd = ConvertTo-SecureString -String "P@ssw0rd" -AsPlainText -Force
-$cred = New-Object System.Management.Automation.PSCredential($adm, $pwd)
-$AtStartup = New-JobTrigger -AtStartup
-Register-ScheduledJob -Name ResumeScript `
-    -Credential $cred `
-    -Trigger $AtStartup `
-    -ScriptBlock { Import-Module PSWorkflow; `
-        Get-Job -Name NewSrvSetup -State Suspended `
-    | Resume-Job }
-DC_Setup -JobName NewSrvSetup
+# Install Forest
+function changeDomain {
+    $domainname = "AXXESTRAINEE.COM"
+    $netbios = "AXXESTRAINEE"
+    $password = "P@ssw0rd" | ConvertTo-SecureString -AsPlainText -Force
+    Install-WindowsFeature AD-Domain-Services -IncludeManagementTools 
+    Install-ADDSDomainController -DomainName $domainname -CreateDnsDelegation:$false -DatabasePath "C:\Windows\NTDS" -InstallDns:$true -LogPath "C:\Windows\NTDS" -NoRebootOnCompletion:$True -SysvolPath "C:\Windows\SYSVOL" -SafeModeAdministratorPassword:($password) -Force:$true 
+    Restart-computer
+}
+# Configure DNS
+function changeDNS {
+    $Forwarder = "8.8.8.8"
+    Add-DnsServerForwarder -IPAddress $Forwarder -PassThru
+}
+changeHostname
+changeNetworkSettings
+joinDomain
+changeDomain
+changeDNS
