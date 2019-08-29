@@ -2,7 +2,7 @@
 .*#
 *~
 *.sav
-
+*.synctex.gz
 ## R
 .RData
 .Rhistory
