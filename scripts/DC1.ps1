@@ -45,8 +45,22 @@ function changeDHCP {
     Set-DhcpServerv4Scope -ScopeId $ip -LeaseDuration 1.00:00:00 
     Restart-service dhcpserver  
 }
+# -------------------------------------------------------------------------
+# Configure RRAS
+# -------------------------------------------------------------------------
+function changeRRAS { 
+    Install-WindowsFeature Routing -IncludeManagementTools
+    Restart-Computer
+    Install-RemoteAccess -VpnType Vpn
+    $ExternalInterface = "Ethernet 2"
+    $InternalInterface = "Ethernet"
+    cmd.exe /c "netsh routing ip nat add interface $ExternalInterface"
+    cmd.exe /c "netsh routing ip nat set interface $ExternalInterface mode=full"
+    cmd.exe /c "netsh routing ip nat add interface $InternalInterface"
+}
 changeHostname
 changeNetworkSettings
 changeDomain
 changeDNS
 changeDHCP
+changeRRAS
