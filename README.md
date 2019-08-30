@@ -1,7 +1,7 @@
 # Windows Server 2018-2019
 
 > Make this in Hyper-V.
-> Use Windows Server Core wherever possible
+> Use Windows Server Core wherever possible.
 
 
 ## Situation
