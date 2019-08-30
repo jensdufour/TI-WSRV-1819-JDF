@@ -10,7 +10,7 @@ function changeHostname {
 # Change networksettings
 # -------------------------------------------------------------------------
 function changeNetworkSettings {
-    $ip = "172.16.1.4" 
+    $ip = "172.16.1.5" 
     $dns = "172.16.1.2"
     $gw = "172.16.1.1"
     New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress $ip -PrefixLength 24 -DefaultGateway $gw

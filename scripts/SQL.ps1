@@ -7,6 +7,16 @@ function changeHostname {
     Restart-Computer
 }
 # -------------------------------------------------------------------------
+# Change networksettings
+# -------------------------------------------------------------------------
+function changeNetworkSettings {
+    $ip = "172.16.1.4"
+    $gw = "172.16.1.1"
+    $dns = "172.16.1.2"
+    New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress $ip -PrefixLength 24 -DefaultGateway $gw
+    Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses $gw, $dns
+}
+# -------------------------------------------------------------------------
 # Join existing Domain
 # -------------------------------------------------------------------------
 function joinDomain {

@@ -43,7 +43,7 @@ function changeDHCP {
     Add-DhcpServerV4Scope -Name "DHCP Scope" -StartRange $startScope -EndRange $endScope -SubnetMask 255.255.255.0 
     Set-DhcpServerV4OptionValue -DnsServer $ip -Router $ip 
     Set-DhcpServerv4Scope -ScopeId $ip -LeaseDuration 1.00:00:00 
-    Restart-service dhcpserver  
+    Restart-Service DHCPServer -Force  
 }
 # -------------------------------------------------------------------------
 # Configure RRAS
