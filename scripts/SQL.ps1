@@ -1,4 +1,12 @@
 # -------------------------------------------------------------------------
+# Change hostname before joining domain
+# -------------------------------------------------------------------------
+function changeHostname {
+    $hostname = "SQL"
+    Rename-Computer -ComputerName $env:COMPUTERNAME -newName $hostname -Force
+    Restart-Computer
+}
+# -------------------------------------------------------------------------
 # Join existing Domain
 # -------------------------------------------------------------------------
 function joinDomain {
@@ -31,6 +39,7 @@ Function changeSSMS {
     Invoke-WebRequest $SSMSDownloadLink -OutFile SSMS.exe
     Start-Process -FilePath "C:\SSMS.exe" -ArgumentList '/s' -Wait -PassThru
 }
+changeHostname
 joinDomain
 changeSQL
 changeSSMS
