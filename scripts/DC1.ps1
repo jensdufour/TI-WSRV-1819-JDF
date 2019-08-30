@@ -15,7 +15,7 @@ function changeNetworkSettings {
     Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses $ip, "8.8.8.8"   
 }
 # -------------------------------------------------------------------------
-# Install Forest
+# Install Forest (Perform on Server Core)
 # -------------------------------------------------------------------------
 function changeDomain {
     $domainname = "AXXESTRAINEE.COM"
