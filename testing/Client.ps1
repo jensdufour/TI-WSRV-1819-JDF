@@ -1,13 +1,17 @@
 # Install-Module -Name Pester -SkipPublisherCheck -Force
+$hostName = "WS-CLI"
+$domainName = "AXXESTRAINEE.COM"
 function testName {
-    $expected = "Client"
     $actual = $env:COMPUTERNAME
-    $actual | Should -Be  $expected
+    $actual | Should -Be  $hostName
 }
 function testDomain {
-    $expected = "AXXESTRAINEE.COM"
     $actual = Get-ADForest -Current LocalComputer.Name
-    $actual | Should -Be  $expected
+    $actual | Should -Be  $domainName
 }
-testName
-testDomain
+
+function testNetworkConfiguration {
+    $actual = Get-NetIPAddress -InterfaceAlias "Ethernet"
+    $expected = "Dhcp"
+    $actual | Should Be $expected
+}
