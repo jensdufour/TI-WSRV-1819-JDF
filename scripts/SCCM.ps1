@@ -64,9 +64,10 @@ function installWSUS {
 # Installing SCCM 
 # -------------------------------------------------------------------------
 function installSCCM {
-    #Add the downloadlink for the Config.ini file here!
+    # Add the downloadlink for the Config.ini file here!
+    # Be sure to configure the necessary parameters (Domain; et al.) in the Config.ini!
     $ConfigDownloadLink
-    #Add the downloadlink for the SCCM Server iso here!
+    # Add the downloadlink for the SCCM Server iso here!
     $SCCMDownloadLink
     Set-Location C:/
     Invoke-WebRequest $SCCMDownloadLink -OutFile SCCM.iso
