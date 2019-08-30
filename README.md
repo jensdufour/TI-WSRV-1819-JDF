@@ -3,7 +3,9 @@
 > Make this in Hyper-V.
 > Use Windows Server Core wherever possible
 
-Situation:
+
+## Situation
+
     01. DC1
         i. NAT Interface
         ii. Internal Switch DC1
