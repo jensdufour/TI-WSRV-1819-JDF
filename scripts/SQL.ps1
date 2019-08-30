@@ -26,9 +26,8 @@ Function changeSQL {
     Invoke-WebRequest $sqlDownloadLink -OutFile SQLServer.exe
     Start-Process -FilePath ./SQLServer.exe -ArgumentList "/action=download /quiet /enu /MediaPath=C:/" -wait
     Remove-Item ./SQLServer.exe
-    Start-Process -FilePath C:/SQLEXPR_x64_ENU.exe -WorkingDirectory C:/ /q -wait
-    Start-Process -FilePath C:/SQLEXPR_x64_ENU/SETUP.EXE -ArgumentList "/Q /Action=install /IAcceptSQLServerLicenseTerms /FEATURES=SQL,Tools /TCPENABLED=1 /SECURITYMODE=`"SQL`"    /SQLSYSADMINACCOUNTS=`"BUILTIN\Administrators`" /INSTANCENAME=`"SQL`" /INSTANCEID=`"SQL`" 
-    /SAPWD=`"P@ssw0rd`"" -wait
+    Start-Process -FilePath C:/SQLEXPR_x64_ENU.exe -WorkingDirectory C:/ /qs -wait
+    Start-Process -FilePath C:/SQLEXPR_x64_ENU/SETUP.EXE -ArgumentList "/Q /Action=install /IAcceptSQLServerLicenseTerms /FEATURES=SQL,RS,Tools /TCPENABLED=1 /SECURITYMODE=`"SQL`" /SQLSVCACCOUNT="$domainName\Administrator" /SQLSYSADMINACCOUNTS=`"$domainName\Domain Admins`" /INSTANCENAME=`"MSSQLSERVER`" /INSTANCEID=`"SQL`" /AGTSVCACCOUNT="NT AUTHORITY\Network Service" SQLCOLLATION=SQL_Latin1_General_CP1_CI_AS /SQLSVCPASSWORD=`"P@ssw0rd`"" -wait
 }
 # -------------------------------------------------------------------------
 #Change SSMS installation (Best performed on jumpserver)
