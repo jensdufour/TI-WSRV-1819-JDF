@@ -58,9 +58,3 @@ function changeRRAS {
     cmd.exe /c "netsh routing ip nat set interface $ExternalInterface mode=full"
     cmd.exe /c "netsh routing ip nat add interface $InternalInterface"
 }
-changeHostname
-changeNetworkSettings
-changeDomain
-changeDNS
-changeDHCP
-changeRRAS

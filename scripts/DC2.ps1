@@ -43,8 +43,3 @@ function changeDNS {
     $Forwarder = "8.8.8.8"
     Add-DnsServerForwarder -IPAddress $Forwarder -PassThru
 }
-changeHostname
-changeNetworkSettings
-joinDomain
-changeDomain
-changeDNS

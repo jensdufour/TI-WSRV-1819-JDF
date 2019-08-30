@@ -39,7 +39,3 @@ Function changeSSMS {
     Invoke-WebRequest $SSMSDownloadLink -OutFile SSMS.exe
     Start-Process -FilePath "C:\SSMS.exe" -ArgumentList '/s' -Wait -PassThru
 }
-changeHostname
-joinDomain
-changeSQL
-changeSSMS
