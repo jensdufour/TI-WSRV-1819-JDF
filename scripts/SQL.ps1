@@ -2,7 +2,7 @@
 # Change hostname before joining domain
 # -------------------------------------------------------------------------
 function changeHostname {
-    $hostname = "SQL"
+    $hostname = "EP1-SQL"
     Rename-Computer -ComputerName $env:COMPUTERNAME -newName $hostname -Force
     Restart-Computer
 }
@@ -10,9 +10,9 @@ function changeHostname {
 # Change networksettings
 # -------------------------------------------------------------------------
 function changeNetworkSettings {
-    $ip = "172.16.1.4"
-    $gw = "172.16.1.1"
-    $dns = "172.16.1.2"
+    $ip = "192.168.10.226"
+    $gw = "192.168.10.200"
+    $dns = "192.168.10.200"
     New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress $ip -PrefixLength 24 -DefaultGateway $gw
     Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses $gw, $dns
 }
@@ -20,7 +20,7 @@ function changeNetworkSettings {
 # Join existing Domain
 # -------------------------------------------------------------------------
 function joinDomain {
-    $domainname = "AXXESTRAINEE.COM"
+    $domainname = "EP1-Maximiliaan.HoGent"
     $username = "$domainname\Administrator"
     $password = "P@ssw0rd" | ConvertTo-SecureString -AsPlainText -Force
     $credential = New-Object System.Management.Automation.PSCredential($username, $password)
@@ -31,7 +31,7 @@ function joinDomain {
 # Change SQL Server (Perform on Server Core)
 # -------------------------------------------------------------------------
 Function changeSQL {
-    $sqlDownloadLink = "https://download.microsoft.com/download/5/E/9/5E9B18CC-8FD5-467E-B5BF-BADE39C51F73/SQLServer2017-SSEI-Expr.exe"
+    $sqlDownloadLink = "https://download.microsoft.com/download/7/f/8/7f8a9c43-8c8a-4f7c-9f92-83c18d96b681/SQL2019-SSEI-Expr.exe"
     Set-Location C:/
     Invoke-WebRequest $sqlDownloadLink -OutFile SQLServer.exe
     Start-Process -FilePath ./SQLServer.exe -ArgumentList "/action=download /quiet /enu /MediaPath=C:/" -wait

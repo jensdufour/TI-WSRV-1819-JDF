@@ -2,7 +2,7 @@
 # Change hostname
 # -------------------------------------------------------------------------
 function changeHostname {
-    $hostname = "SCCM"
+    $hostname = "EP1-SCCM"
     Rename-Computer -ComputerName $env:COMPUTERNAME -newName $hostname -Force
     Restart-Computer
 }
@@ -10,9 +10,9 @@ function changeHostname {
 # Change networksettings
 # -------------------------------------------------------------------------
 function changeNetworkSettings {
-    $ip = "172.16.1.5" 
-    $dns = "172.16.1.2"
-    $gw = "172.16.1.1"
+    $ip = "192.168.10.225" 
+    $dns = "192.168.10.200"
+    $gw = "192.168.10.200"
     New-NetIPAddress -InterfaceAlias "Ethernet" -IPAddress $ip -PrefixLength 24 -DefaultGateway $gw
     Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses $gw, $dns
 }
@@ -20,7 +20,7 @@ function changeNetworkSettings {
 # Join existing Domain
 # -------------------------------------------------------------------------
 function joinDomain {
-    $domainname = "AXXESTRAINEE.COM"
+    $domainname = "EP1-Maximiliaan.HoGent"
     $username = "$domainname\Administrator"
     $password = "P@ssw0rd" | ConvertTo-SecureString -AsPlainText -Force
     $credential = New-Object System.Management.Automation.PSCredential($username, $password)
@@ -31,7 +31,7 @@ function joinDomain {
 # Install the necessary prerequisites
 # -------------------------------------------------------------------------
 function changePrerequisites { 
-    Get-Module servermanager
+    Get-Module ServerManager
     Install-WindowsFeature Web-Windows-Auth         
     Install-WindowsFeature Web-ISAPI-Ext
     Install-WindowsFeature Web-Metabase
@@ -66,14 +66,14 @@ function installWSUS {
 function installSCCM {
     # Add the downloadlink for the Config.ini file here!
     # Be sure to configure the necessary parameters (Domain; et al.) in the Config.ini!
-    $ConfigDownloadLink
-    # Add the downloadlink for the SCCM Server iso here!
-    $SCCMDownloadLink
+    $ConfigDownloadLink = https://raw.githubusercontent.com/jensdufour/TI-WSRV-1819-JDF/master/scripts/Config.ini
+    # Add the downloadlink for the SCCM Server 2016 iso here!
+    $SCCMDownloadLink = http://download.microsoft.com/download/F/B/9/FB9B10A3-4517-4E03-87E6-8949551BC313/SC_Configmgr_SCEP_1606.exe
     Set-Location C:/
-    Invoke-WebRequest $SCCMDownloadLink -OutFile SCCM.iso
-    Mount-DiskImage -ImagePath .\SCCM.iso
-    $SCCMISOLocation = (Get-DiskImage ".\SCCM.iso" | Get-Volume).DriveLetter
-    Set-Location $SCCMISOLocation
+    Invoke-WebRequest $SCCMDownloadLink -OutFile ConfigMgr.exe
+    #Mount-DiskImage -ImagePath .\SCCM.iso
+    #$SCCMISOLocation = (Get-DiskImage ".\SCCM.iso" | Get-Volume).DriveLetter
+    #Set-Location $SCCMISOLocation
     Invoke-WebRequest $ConfigDownloadLink -OutFile Config.ini
-    .\SMSSETUP\BIN\X64\setup.exe /script .\Config.ini
+    ConfigMgr.exe /script .\Config.ini
 }
